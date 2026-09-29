@@ -28,7 +28,7 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --font-sans: "DM Sans", sans-serif;
+  --font-sans: "Manrope", sans-serif;
 }
 
 :root {
@@ -95,7 +95,7 @@ html.light {
   #root {
     background-color: var(--page-bg);
     color: var(--page-fg);
-    font-family: "DM Sans", sans-serif;
+    font-family: "Manrope", sans-serif;
     margin: 0;
     padding: 0;
     transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1),
@@ -124,11 +124,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", "DM Sans", serif;
+  font-family: "Manrope", sans-serif;
 }
 
 .hero-heading {
-  font-family: "Playfair Display", "DM Sans", serif;
+  font-family: "Manrope", sans-serif;
   background: linear-gradient(180deg, var(--heading-from) 0%, var(--heading-to) 100%);
   -webkit-background-clip: text;
   background-clip: text;
