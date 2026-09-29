@@ -21,7 +21,7 @@ const copy = {
     experience: "Experience",
     jobs: [
       { company: "RoBota", role: "IT and website development internship", date: "29 September – 9 October 2026", image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80", tasks: ["Using GitHub and AI tools to help create my own websites and develop my digital skills."] },
-      { company: "Migros", role: "Food department work placement", date: "13–18 April 2026", image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80", tasks: ["Restocked products and arranged shelves.", "Helped customers find the products they needed.", "Supported the team in daily tasks."] },
+      { company: "Migros", role: "Food department work placement", date: "13–18 April 2026", image: "https://images.unsplash.com/photo-1601599561213-832382fd07ba?auto=format&fit=crop&w=700&q=80", tasks: ["Restocked products and arranged shelves.", "Helped customers find the products they needed.", "Supported the team in daily tasks."] },
       { company: "Capital Services", role: "Work placement", date: "3–8 November 2025", image: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=700&q=80", tasks: ["Helped customers purchase bus tickets.", "Assisted with printing documents and other day-to-day tasks.", "Discovered a variety of customer service and administrative duties."] },
       { company: "Fidimmob", role: "Administrative work placement", date: "November 2025", image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=700&q=80", tasks: ["Sorted and organized invoices.", "Used Excel and helped with administrative tasks."] },
     ],
@@ -52,7 +52,7 @@ const copy = {
     experience: "Expérience",
     jobs: [
       { company: "RoBota", role: "Stage en informatique et création de sites web", date: "Du 29 septembre au 9 octobre 2026", image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=80", tasks: ["Utilisation de GitHub et d’outils d’intelligence artificielle pour m’aider à créer mes propres sites web et à développer mes compétences numériques."] },
-      { company: "Migros", role: "Stage au rayon alimentaire", date: "13–18 avril 2026", image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=700&q=80", tasks: ["Réapprovisionnement et mise en rayon des produits.", "Aide aux clients pour trouver les produits recherchés.", "Soutien à l’équipe dans les tâches quotidiennes."] },
+      { company: "Migros", role: "Stage au rayon alimentaire", date: "13–18 avril 2026", image: "https://images.unsplash.com/photo-1601599561213-832382fd07ba?auto=format&fit=crop&w=700&q=80", tasks: ["Réapprovisionnement et mise en rayon des produits.", "Aide aux clients pour trouver les produits recherchés.", "Soutien à l’équipe dans les tâches quotidiennes."] },
       { company: "Capital Services", role: "Stage de découverte", date: "3–8 novembre 2025", image: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=700&q=80", tasks: ["Aide aux clients pour l’achat de billets de bus.", "Aide à l’impression de documents et à différentes tâches quotidiennes.", "Découverte de diverses tâches liées à l’accueil et à l’administration."] },
       { company: "Fidimmob", role: "Stage en administration", date: "Novembre 2025", image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=700&q=80", tasks: ["Tri et classement de factures.", "Utilisation d’Excel et participation aux tâches administratives."] },
     ],
@@ -90,12 +90,12 @@ export function ArianaPortfolio() {
         <div className="absolute inset-0 -z-0 opacity-20" style={{ background: "radial-gradient(ellipse at 50% 45%, #782838 0%, transparent 56%)" }} />
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
           <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80" alt="" className="absolute left-[3%] top-[19%] hidden h-36 w-24 rounded-xl object-cover opacity-55 shadow-xl sm:block md:left-[7%] md:h-44 md:w-32" />
-          <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80" alt="" className="absolute bottom-[13%] left-[12%] hidden h-24 w-20 rounded-xl object-cover opacity-50 shadow-xl md:block" />
-          <img src="https://images.unsplash.com/photo-1604719312566-8912e9c8a213?auto=format&fit=crop&w=600&q=80" alt="" className="absolute right-[4%] top-[17%] hidden h-40 w-28 rounded-xl object-cover opacity-50 shadow-xl sm:block md:right-[8%] md:h-48 md:w-36" />
+          <img src="https://images.unsplash.com/photo-1601598851547-4302969d0614?auto=format&fit=crop&w=600&q=80" alt="" className="absolute bottom-[13%] left-[12%] hidden h-24 w-20 rounded-xl object-cover opacity-50 shadow-xl md:block" />
+          <img src="https://images.unsplash.com/photo-1601600576337-c1d8a0d1373c?auto=format&fit=crop&w=600&q=80" alt="" className="absolute right-[4%] top-[17%] hidden h-40 w-28 rounded-xl object-cover opacity-50 shadow-xl sm:block md:right-[8%] md:h-48 md:w-36" />
           <img src="https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=600&q=80" alt="" className="absolute bottom-[12%] right-[12%] hidden h-24 w-20 rounded-xl object-cover opacity-55 shadow-xl md:block" />
           <div className="absolute bottom-24 left-1/2 flex -translate-x-1/2 gap-2 sm:hidden">
             <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=400&q=80" alt="" className="h-14 w-11 rounded-lg object-cover opacity-60" />
-            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=400&q=80" alt="" className="h-14 w-11 rounded-lg object-cover opacity-60" />
+            <img src="https://images.unsplash.com/photo-1601598851547-4302969d0614?auto=format&fit=crop&w=400&q=80" alt="" className="h-14 w-11 rounded-lg object-cover opacity-60" />
             <img src="https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?auto=format&fit=crop&w=400&q=80" alt="" className="h-14 w-11 rounded-lg object-cover opacity-60" />
           </div>
         </div>
