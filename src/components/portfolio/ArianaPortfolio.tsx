@@ -87,7 +87,7 @@ export function ArianaPortfolio() {
       </nav>
 
       <section id="top" className="relative flex min-h-screen flex-col items-center justify-center px-5 pt-24 text-center sm:px-8">
-        <div className="absolute inset-0 -z-0 opacity-20" style={{ background: "radial-gradient(ellipse at 50% 45%, #8126a8 0%, transparent 56%)" }} />
+        <div className="absolute inset-0 -z-0 opacity-20" style={{ background: "radial-gradient(ellipse at 50% 45%, #782838 0%, transparent 56%)" }} />
         <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
           <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=80" alt="" className="absolute left-[3%] top-[19%] hidden h-36 w-24 rounded-xl object-cover opacity-55 shadow-xl sm:block md:left-[7%] md:h-44 md:w-32" />
           <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80" alt="" className="absolute bottom-[13%] left-[12%] hidden h-24 w-20 rounded-xl object-cover opacity-50 shadow-xl md:block" />
